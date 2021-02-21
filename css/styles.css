@@ -1,3 +1,5 @@
+
+/* Desktop setup */
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -69,6 +71,8 @@ p {
     font-size: 1rem;
 }
 
+/* Tablet setup */
+
 @media (max-width:991px) {
     * {
         font-size: 14px;
@@ -82,6 +86,8 @@ p {
         width:98.5%;
     }
 }
+
+/* Mobile setup */
 
 @media (max-width:767px) {
     * {
